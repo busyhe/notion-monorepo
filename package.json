@@ -4,9 +4,7 @@
     "author": "busyhe <busyhe@qq.com>",
     "version": "0.0.1",
     "main": "index.js",
-    "scripts": {
-        "postinstallDev": "husky install"
-    },
+    "scripts": {},
     "license": "MIT",
     "keywords": [
         "notion",
