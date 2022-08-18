@@ -4,7 +4,6 @@
     "author": "busyhe <busyhe@qq.com>",
     "version": "0.0.1",
     "main": "index.js",
-    "private": false,
     "scripts": {
         "postinstallDev": "husky install"
     },
@@ -16,7 +15,6 @@
     "workspaces": [
         "packages/*"
     ],
-    "packageManager": "yarn@3.2.2",
     "devDependencies": {
         "@changesets/cli": "^2.24.3",
         "commitizen": "^4.2.4",
@@ -32,6 +30,10 @@
         "type": "git",
         "url": "git@github.com:busyhe/notion-monorepo.git"
     },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "config": {
         "commitizen": {
             "path": "cz-conventional-changelog"
@@ -42,5 +44,6 @@
     },
     "engines": {
         "node": ">=16.0.0"
-    }
+    },
+    "packageManager": "yarn@3.2.2"
 }

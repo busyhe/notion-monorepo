@@ -21,14 +21,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:."\
       },\
       {\
-        "name": "@notion/shortcuts",\
+        "name": "@busyhe/notion-shortcuts",\
         "reference": "workspace:packages/project"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["@notion/shortcuts", ["workspace:packages/project"]],\
+      ["@busyhe/notion-shortcuts", ["workspace:packages/project"]],\
       ["notion-monorepo", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -87,6 +87,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regenerator-runtime", "npm:0.13.9"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@busyhe/notion-shortcuts", [\
+        ["workspace:packages/project", {\
+          "packageLocation": "./packages/project/",\
+          "packageDependencies": [\
+            ["@busyhe/notion-shortcuts", "workspace:packages/project"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["@changesets/apply-release-plan", [\
@@ -481,15 +490,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fastq", "npm:1.13.0"]\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@notion/shortcuts", [\
-        ["workspace:packages/project", {\
-          "packageLocation": "./packages/project/",\
-          "packageDependencies": [\
-            ["@notion/shortcuts", "workspace:packages/project"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["@tsconfig/node10", [\
