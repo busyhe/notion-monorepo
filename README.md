@@ -1,6 +1,6 @@
-# monorepo-demo
+# notion-monorepo
 
-A monorepo project
+Notion plugins
 
 ## Documentation
 

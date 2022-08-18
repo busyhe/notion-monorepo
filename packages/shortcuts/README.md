@@ -1,3 +1,3 @@
-# @notion/shortcuts
+# @busyhe/notion-shortcuts
 
 ## Shortcuts
