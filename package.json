@@ -8,7 +8,10 @@
         "postinstallDev": "husky install"
     },
     "license": "MIT",
-    "keywords": [],
+    "keywords": [
+        "notion",
+        "monorepo"
+    ],
     "workspaces": [
         "packages/*"
     ],
@@ -22,11 +25,11 @@
         "pinst": "^3.0.0"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/busyhe/notion-monorepo/issues"
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "git@github.com:busyhe/notion-monorepo.git"
     },
     "config": {
         "commitizen": {
