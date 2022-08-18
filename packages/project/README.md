@@ -1,1 +1,3 @@
-# project
+# @notion/shortcuts
+
+## Shortcuts
