@@ -5,9 +5,7 @@
     "version": "0.0.1",
     "main": "index.js",
     "scripts": {
-        "postinstall": "husky install",
-        "prepack": "pinst --disable",
-        "postpack": "pinst --enable"
+        "postinstallDev": "husky install"
     },
     "license": "MIT",
     "keywords": [],
