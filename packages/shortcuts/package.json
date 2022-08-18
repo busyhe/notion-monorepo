@@ -1,0 +1,16 @@
+{
+    "name": "@busyhe/notion-shortcuts",
+    "version": "0.0.3",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "bugs": {
+        "url": "https://github.com/busyhe/notion-monorepo/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:busyhe/notion-monorepo.git"
+    },
+    "homepage": "https://github.com/busyhe/notion-monorepo"
+}

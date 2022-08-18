@@ -22,13 +22,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       },\
       {\
         "name": "@busyhe/notion-shortcuts",\
-        "reference": "workspace:packages/project"\
+        "reference": "workspace:packages/shortcuts"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["@busyhe/notion-shortcuts", ["workspace:packages/project"]],\
+      ["@busyhe/notion-shortcuts", ["workspace:packages/shortcuts"]],\
       ["notion-monorepo", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -90,10 +90,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@busyhe/notion-shortcuts", [\
-        ["workspace:packages/project", {\
-          "packageLocation": "./packages/project/",\
+        ["workspace:packages/shortcuts", {\
+          "packageLocation": "./packages/shortcuts/",\
           "packageDependencies": [\
-            ["@busyhe/notion-shortcuts", "workspace:packages/project"]\
+            ["@busyhe/notion-shortcuts", "workspace:packages/shortcuts"]\
           ],\
           "linkType": "SOFT"\
         }]\
